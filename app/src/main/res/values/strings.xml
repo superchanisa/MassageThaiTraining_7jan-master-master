@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Massage Thai Training</string>
+
+    <string name="hub1">ท่านั่ง</string>
+    <string name="hub2">ท่านอนหงาย</string>
+    <string name="hub3">ท่านอนคว่ำ</string>
+    <string name="hub4">ท่านอนตะแคง</string>
+    <string name="hub5">ท่านวดฝ่าเท้า</string>
+    <string name="hub6">ออกจากแอฟ</string>
+    <string name="title1">การนวดไทยแบบราชสำนัก</string>
+
+</resources>

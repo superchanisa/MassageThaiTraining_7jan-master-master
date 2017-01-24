@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg6">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:text="              การเตรียมตัว"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView17"
+                android:textSize="30sp"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:text="การฝึกกำลังนิ้ว
+เพื่อให้นิ้วมือมีกำลังแข็งแรง จะได้มีกำลังเพียงพอ มือไม่สั่นไม่อ่อนแรง กดได้ตรงเป้าหมายในการรักษาและได้ผลรวดเร็ว สามารถทำได้โดยฝึกซ้อม ยกกระดาน ทุกวัน ด้วยการนั่งขัดสมาธิเพชรและหย่งมือเป็นรูปถ้วย วางไว้ข้างลำตัวแล้วยกตัวให้พ้นจากพื้นหรือใช้การฝึกโดยบีบขี้ผึ้งจนอ่อนตัว
+การรักษาสุขภาพ ผู้นวดจะต้องรักษาสุขภาพให้ดีอยู่เสมอทั้งกาย และใจหมั่นออกกาลังกายให้ร่างกายแข็งแรงอยู่ เสมอถ้ารู้สึกว่าไม่สบายหรือมีไข้ไม่ควรทาการนวดเพราะนอกจากการนวดจะไม่ได้ผลดีเท่าที่ควรแล้ว ยังอาจแพร่โรคให้กับผู้ถูกนวดได้และเล็บมือ ควรตัดให้สั้นอันเป็นการดูแลสุข อนามัยที่ดีและสะดวกต่อการนวดมารยาทในขณะทำการนวด
+ก่อนทำการนวด ผู้นวดควรสำรวมจิตใจให้เป็นสมาธิ ระลึกถึงคุณครูอาจารย์สำหรับการนวดแบบราชสำนักจะมีการยกมือไหว้ผู้ถูกนวด เพื่อเป็นการขอขมาที่ล่วงเกินบนร่างกาย
+1.ขณะนวด ควรนั่งห่างจากผู้ถูกนวดพอสมควรในด้านที่จะทำการนวดไม่ควรคร่อมตัวผู้ถูกนวด สำหรับการนวดแบบราชสำนัก จะเดินเข่าเข้าหาผู้ถูกนวดอย่างน้อย 4 ศอก และนั่งห่างจากผู้ถูกนวดประมาณ 1 ศอก และจับชีพจรดูลมเบื้องสูงกับลมเบื้องต่ำ
+2.ขณะนวด ไม่ควรก้มหน้าจะทำให้หายใจรดผู้ถูกนวด ซึ่งใน การนวดแบบราชสำนัก ได้มีคำกล่าวไว้ว่า “แม้ลมหายใจก็ไม่ให้รดพระวรกาย” ขณะทำการนวดจึงมักจะหันหน้าตรงไปข้างหน้า โดยไม่ก้มหน้า และไม่เงยหน้ามองฟ้า อันเป็นการแสดงความไม่เคารพ
+           3.ขณะทำการนวด ห้ามกินอาหารหรือสิ่งใดๆและระมัดระวังการพูดที่อาจทำให้ผู้ถูกนวดตกใจสะเทือนใจหรือหวาดกลัว ควรซักถามและสังเกตอาการอยู่เสมอควรหยุดเมื่อผู้ถูกนวดขอให้พักหรือเจ็บปวดจนทนไม่ไหว
+"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView18"
+                android:textSize="18sp"
+                android:textColor="@android:color/black" />
+
+            <Button
+                android:text="Back"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button10"
+                android:layout_weight="0.24"
+                android:onClick="clickButton10"
+                />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

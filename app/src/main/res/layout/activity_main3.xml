@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/bg6">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:text="       ประเภทของการนวดไทย"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView15"
+                android:layout_weight="1"
+                android:textColor="@android:color/black"
+                android:textSize="28sp" />
+
+            <TextView
+                android:text="1.นวดน้ำมันการนวดร่างกายโดยใช้น้ำมันที่สกัดจากธรรมชาติที่บริสุทธิ์เช่น โจโจบา อัลมอนด์ และกลิ่นหอมจากธรรมชาติ ช่วยให้สดชื่นผ่อนคลาย และคลายเครียดด้วยกลิ่นหอม เฉพาะทางที่ใช้ในการบำบัดอาการให้เบาบางลง เช่น อาการนอนไม่หลับ อาการเครียด หดหู่ นอกจากนี้น้ำมันบริสุทธิ์ยังช่วยบำรุงผิว และกระชับรูปร่างทำให้กล้ามเนื้อไม่หย่อนยาน สลายไขมันตามร่างกายความร้อนของน้ำมันที่เกิดจากการนวด จะซึมซาบ ลึกเข้าไปผิวหนังและกล้ามเนื้อ ช่วยให้รู้สึกเบาสบายตัว
+                               2.นวดผ่อนคลาย
+ การนวดผ่อนคลาย เป็นการนวดที่ถูกสุขลักษณะตามแบบแผนไทยโบราณ ซึ่งส่งผลโดยตรงต่อร่างกายและจิตใจ ทำให้เกิด การไหลเวียนของเลือดลม คลายกล้ามเนื้อที่ล้า รักษาอาการปวดเมื่อยตามร่างกาย คลายเครียด เคล็ดขัดยอก ช่วยให้สุขภาพ กระปรี้กระเปร่า จิตใจผ่อนคลาย
+                                      3.นวดฝ่าเท้า
+ การนวดฝ่าเท้า นวดเท้า เป็นการปรับสมดุลในร่างกาย ช่วยให้ระบบการไหวเวียนไปยังอวัยวะต่าง ๆ ภายในร่างกายได้ดีขึ้น ส่งผลให้มีการขับถ่ายของเสียออกจากเซลล์ ปรับสภาวะสมดุลของร่างกายทำให้สุขภาพโดยรวมดีขึ้น
+                                                    4.นวดสปอร์ท การออกกำลังกายอย่างหักโหมจนเกินไป อาจทำให้เกิดอาการเกร็งของกล้ามเนื้อเฉพาะส่วน หรืออาการล้า การนวดสปอร์ท จึงเป็นการนวดคลายกล้ามเนื้อดังกล่าว ช่วยให้กล้ามเนื้อผ่อนคลาย
+                                5.นวดจับเส้นการนวดเพื่อบำบัดอาการปวดเมื่อยเฉพาะจุด หรือตามข้อต่อ การยึดติดของพังผืดของร่างกายให้ทุเลา ผ่อนคลาย
+                                         6.นวดสลายไขมัน - อโรมา เป็นการนวดน้ำมัน เพื่อผ่อนคลายกล้ามเนื้อทุกส่วนของร่างกาย
+        7.นวด - ประคบเป็นการใช้ลูกประคบสมุนไพรประคบตามร่างกาย เพื่อผ่อนคลายกล้ามเนื้อที่ตึงหรือเครียดให้สบาย
+ 8.นวด - ไมเกรนเป็นการนวดเพื่อแก้อาการปวดศีรษะโดยจะกดจุดบริเวณศีรษะที่ปวด
+"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView16"
+                android:layout_weight="1"
+                android:textSize="18sp"
+                android:textColor="@android:color/black" />
+
+            <Button
+                android:text="Back"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button9"
+                android:onClick="clickButton9"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

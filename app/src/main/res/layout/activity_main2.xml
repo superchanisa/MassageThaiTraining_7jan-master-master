@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0.52"
+        android:background="@drawable/bg6">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:text="            การนวดพื้นฐาน"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView8"
+                android:layout_weight="0.52"
+                android:textSize="30sp"
+                android:textColor="@android:color/black" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/pp2"
+                android:id="@+id/imageView12"
+                android:layout_weight="0.52" />
+
+            <TextView
+                android:text="การนวดในจุดต่างๆของการนวดไทยแบบราช สำนักเป็นการนวดเพื่อนำเลือดมาเลี้ยงบริเวณที่จะทำ การรักษาเรียกว่า  “การนวดพื้นฐาน”  มี  ๕  ตำแหน่ง
+                                    ๑.การนวดพื้นฐานบ่า คือ
+                                    การนวดบริเวณบ่าทั้ง ๒ข้างเพื่อให้กล้ามเนื้อที่เกร็งเกิดการอ่อนตัว และทำให้การไหลเวียนเลือดบริเวณบ่าดีขึ้น
+                ๒.การนวดพื้นฐานแขน คือ การนวดบริเวณแขนด้านในจากต้นแขนไปจนถึงข้อมือเพื่อให้เลือดไหลเวียนไปทั่วแขน
+                ๓.การนวดพื้นฐานหลัง คือ การนวดในแนวข้างกระดูกสันหลังทั้ง ๒ ข้างจากบั้นเอวถึงต้นคอและจากต้นคอลงมาถึงบั้นเอวเพื่อให้การไหลเวียนของเลือดบริเวณกระดูกสันหลังดีขึ้น
+                                  ๔.การนวดพื้นฐานขา คือ การนวดตามแนวกระดูกขาด้านข้างจากหน้าแข้งลงไปถึงเท้าและจากเหนือเข่าขึ้นไปจนถึงต้นขาและกลับมือนวดด้านล่างของขาจากต้นขาถึงข้อเท้า
+                ๕.การนวดพื้นฐานท้อง คือ การนำเลือดมาเลี้ยงบริเวณหน้าท้องให้เส้นท้องหย่อนคลายกล้ามเนื้อเพื่อกดนวดสัญญาณท้องแต่ละจุด
+"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView14"
+                android:layout_weight="0.52"
+                android:textSize="18sp"
+                android:textColor="@android:color/black" />
+
+            <Button
+                android:text="Back"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/button2"
+                android:onClick="clickButton2"
+                android:layout_weight="0.79" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
